@@ -1,0 +1,47 @@
+{
+  "name": "momento-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build --turbopack",
+    "start": "next start",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "@auth/prisma-adapter": "^2.10.0",
+    "@aws-sdk/client-s3": "^3.896.0",
+    "@aws-sdk/s3-presigned-post": "^3.888.0",
+    "@aws-sdk/s3-request-presigner": "^3.888.0",
+    "@next-auth/mongodb-adapter": "^1.1.3",
+    "@prisma/client": "^6.16.2",
+    "@supabase/supabase-js": "^2.57.4",
+    "@types/bcrypt": "^6.0.0",
+    "bcrypt": "^6.0.0",
+    "bcryptjs": "^3.0.2",
+    "jsonwebtoken": "^9.0.2",
+    "lucide-react": "^0.544.0",
+    "mongodb": "^5.9.2",
+    "next": "^15.5.3",
+    "next-auth": "^4.24.11",
+    "prisma": "^6.16.2",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "react-hook-form": "^7.63.0",
+    "supabase": "^2.45.5"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
+    "@types/bcryptjs": "^2.4.6",
+    "@types/jsonwebtoken": "^9.0.10",
+    "@types/node": "^20.19.13",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "15.5.2",
+    "tailwindcss": "^4",
+    "typescript": "^5",
+    "vercel": "^41.0.2"
+  }
+}

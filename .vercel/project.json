@@ -1,0 +1,16 @@
+{
+  "projectId": "prj_GqJsfSVYHPYS1yQA6GyUhTspIe8q",
+  "orgId": "team_R0Lr9sikisBvxTCrHSTXWZf2",
+  "projectName": "momento-app",
+  "settings": {
+    "createdAt": 1757499837687,
+    "framework": "nextjs",
+    "devCommand": null,
+    "installCommand": null,
+    "buildCommand": null,
+    "outputDirectory": null,
+    "rootDirectory": null,
+    "directoryListing": false,
+    "nodeVersion": "22.x"
+  }
+}
